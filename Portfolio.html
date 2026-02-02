@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Portfolio.css">
+  <title>Kushwanth Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+    
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Experience">Experience</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+    </header>
+
+    <div class="sakura-container"></div>
+    <!-- HOME -->
+    <section id="home" class="screen portfolio">
+        <div class="hero-card"></div>
+        <h2>Hello, I am Kushwanth Byragoni</h2>
+        <p class="subtitle">
+            Welcome to my website. Here you can find information about my skills,
+            projects, and contact details.
+            
+        </p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="screen about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I am a UI & UX DESIGN ENTHUSIAST  and ASPIRING WEB DEVELOPER.
+            <br>Explore My Education, Certifications, and Projects.
+            <br>Feel free to contact me if you have questions.
+            <br><button class="resume" onclick="openresume()">Resume</button>
+            <button class="certificates" onclick="openCertificates()">Certificates</button>
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="screen skills">
+
+        <h2>Technical Skills</h2>
+        <div class="skills-row">
+            <img src="images/HTML.png">
+            <img src="images/CSS.png">
+            <img src="images/Js.png">
+            <img src="images/React.png">
+            <img src="images/Node js.png">
+            <img src="images/Python.png">
+            <img src="images/C.png">
+        </div>
+
+        <h2>Soft Skills</h2>
+        <div class="skills-row">
+            <img src="images/Comunication.png">
+            <img src="images/Teamwork.png">
+            <img src="images/Problem solving.png">
+        </div>
+
+        <h2>IDE & Tools</h2>
+        <div class="skills-row">
+            <img src="images/Visual studio.png">
+            <img src="images/Google Colab.png">
+            <img src="images/Git.png">
+            <img src="images/github.jpg">
+            <img src="images/Figma.png">
+            <img src="images/Fusion 360.png">
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="screen projects" id="Projects">
+            <h2 class="section-title">Projects</h2>
+
+        <div class="projects-wrapper">
+
+            <div class="project-card glass">
+                <div class="project-text">
+                    <h3>PORTFOLIO WEBSITE</h3>
+                    <p>A personal portfolio website to showcase my skills and projects.</p>
+                </div>
+
+                <div class="project-actions">
+                    <a href="#" target="_blank" class="icon-btn github">
+                        <img src="images/github.jpg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card glass">
+                <div class="project-text">
+                <h3>MEDISCAN</h3>
+                <p>A web application designed for doctors for diabetic retinopathy detection.</p>
+                </div>
+
+                <div class="project-actions">
+                    <a href="https://youtu.be/hki-aDZ1Apw?t=3" target="_blank" class="icon-btn youtube">
+                        <img src="images/YouTube.png">
+                    </a>
+
+                    <a href="https://github.com/Kushwanthbyragoni/Medi-scan-Image-analysis-for-Diabetic-Retinopathy" target="_blank" class="icon-btn github">
+                        <img src="images/github.jpg">
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="project-card glass">
+                <div class="project-text">
+                    <h3>GESTURE GLYPH</h3>
+                    <p>A web application that provides real-time translations for hand gestures.</p>
+                </div>
+
+                <div class="project-actions">
+                    <a href="https://github.com/Kushwanthbyragoni/handsign-detection" target="_blank" class="icon-btn github">
+                        <img src="images/github.jpg">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- EXPERIENCE -->
+    <section id="Experience" class="screen experience">
+        <h2>Professional Experience</h2>
+        <img src="images/Pixehub.png"  class="company-logo" />
+
+
+        <div class="experience-card">
+            <h3>Internship at PixeHub</h3>
+            <p>
+            Worked on developing web applications. Gained experience in front-end and
+            back-end development.
+            </p>
+
+            <p><strong>Duration:</strong> January 2026 - June 2026</p>
+            <p><strong>Role:</strong> UI/UX Intern</p>
+            <p>
+            <strong>Technologies:</strong> HTML, CSS, JavaScript, React, Node.js
+            </p>
+        </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="screen contact-section">
+  <div class="contact-container">
+
+    <!-- LEFT : CONTACT INFO -->
+    <div class="contact-info">
+      <h2>Contact Me</h2>
+      <p>
+        If you would like to get in touch, please reach out through any of the
+        following methods:
+      </p>
+
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:kushwanthbyragoni@gmail.com">
+          kushwanthbyragoni@gmail.com
+        </a>
+      </p>
+
+      <p>
+        <strong>Phone:</strong>
+        <a href="tel:+919059823624">+91 9059823624</a>
+      </p>
+
+      <p>
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/kushwanth-byragoni-a605a427b" target="_blank">
+          View Profile
+        </a>
+        \
+      </p>
+    </div>
+
+    <!-- RIGHT : GET IN TOUCH FORM -->
+    <div class="contact-form glass">
+      <h3>Get in Touch</h3>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="sendmessage-btn">Send Message</button>
+        </form>
+    </div>
+    </section>
+
+    <!-- FOOTER -->    
+    <footer class="footer">
+        <p>© 2026 <b>By Kushwanth Byragoni</b></p>
+    </footer>
+    <script src="Portfolio.js"></script>
+
+
+</body>
+</html>
