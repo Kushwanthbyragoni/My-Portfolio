@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kushwanth Byragoni — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Exo+2:ital,wght@0,100;0,300;0,400;0,600;1,300&display=swap"
+    rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-trail"></div>
+
+  <!-- Loading Screen -->
+  <div id="loader">
+    <div class="loader-text">KUSHWANTH.DEV</div>
+    <div class="loader-bar">
+      <div class="loader-fill"></div>
+    </div>
+  </div>
+
+  <!-- Particle Canvas Background -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav>
+    <div class="nav-logo">K<span>.</span>BYRAGONI</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="https://drive.google.com/file/d/1IGXvGKrzI6-DP_YgzUMfJ2euKQWS6Lfj/view?usp=sharing" target="_blank" >Resume</a></li>
+      <li><a href="#auto">Passion</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="racing-lines">
+      <div class="race-line" style="top:20%;width:300px;animation-duration:3s;animation-delay:0s"></div>
+      <div class="race-line" style="top:40%;width:200px;animation-duration:4s;animation-delay:1s"></div>
+      <div class="race-line" style="top:70%;width:400px;animation-duration:3.5s;animation-delay:0.5s"></div>
+      <div class="race-line" style="top:85%;width:250px;animation-duration:2.5s;animation-delay:2s"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag">✦ Computer Science Student &amp; Developer ✦</p>
+      <h1 class="hero-name">
+        <span class="glow">KUSHWANTH</span><br>
+        <span class="accent">BYRAGONI</span>
+      </h1>
+      <p class="hero-tagline">
+        <span>Developer</span> &nbsp;|&nbsp; <span>Designer</span> &nbsp;|&nbsp; <span> Tech Enthusiast </span>
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-secondary">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-ring ring1"></div>
+      <div class="hero-ring ring2"></div>
+      <div class="hero-ring ring3"></div>
+      <div class="hero-avatar">🧑‍💻</div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="section-wrap">
+      <p class="section-label reveal">01 — Who I Am</p>
+      <h2 class="section-title reveal">About <span class="hl">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I'm Kushwanth Byragoni, a Computer Science student with a passion for building digital experiences that
+            feel alive. I thrive at the intersection of clean code and bold design.</p>
+          <p>From crafting pixel-perfect interfaces to architecting backend systems, I approach every project with the
+            same energy I bring to the racetrack — full throttle, zero compromise.</p>
+          <p>When I'm not coding, I'm rewatching my favorite anime arcs or obsessing over automotive engineering. That
+            same obsession with detail and speed shapes how I build things.</p>
+        </div>
+        <div class="about-cards reveal">
+          <div class="about-card">
+            <div class="icon">⚡</div>
+            <h4>Developer</h4>
+            <p>Full-stack web apps with clean architecture and fast performance</p>
+          </div>
+          <div class="about-card">
+            <div class="icon">🎨</div>
+            <h4>Designer</h4>
+            <p>UI/UX design</p>
+          </div>
+          <div class="about-card">
+            <div class="icon">🏎️</div>
+            <h4>Auto Lover</h4>
+            <p>Bikes, cars, speed — the engineering beauty of machines</p>
+          </div>
+          <div class="about-card">
+            <div class="icon">⛩️</div>
+            <h4>Anime Fan</h4>
+            <p>Inspired by storytelling, artistry, and relentless ambition</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="section-wrap">
+      <p class="section-label reveal">02 — What I Know</p>
+      <h2 class="section-title reveal">My <span class="hl">Skills</span></h2>
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-category reveal">
+          <h3>Frontend</h3>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">HTML / CSS</span><span class="skill-pct">92%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="92"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">JavaScript</span><span class="skill-pct">85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">UI / UX Design</span><span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="90"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Backend -->
+        <div class="skill-category reveal">
+          <h3>Backend &amp; Database</h3>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">Node.js / Express</span><span class="skill-pct">75%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">SQL / MySQL</span><span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">Git &amp; GitHub</span><span class="skill-pct">82%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="82"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Softskills -->
+        <div class="skill-category reveal">
+          <h3>Soft Skills</h3>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">Communication</span><span class="skill-pct">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="95"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">Team Collaboration</span><span
+                class="skill-pct">100%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">Problem Solving</span><span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="90"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="section-wrap">
+      <p class="section-label reveal">03 — What I've Built</p>
+      <h2 class="section-title reveal">Featured <span class="hl">Projects</span></h2>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-num">01</div>
+          <h3>Employee Management System</h3>
+          <p>Employee Management System is a full-stack web application with a clean and professional user interface
+            designed to manage employee records efficiently using modern web technologies and database integration.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+          <a href="https://github.com/Kushwanthbyragoni/Employee-Management-System" class="project-link" target="_blank">View Project →</a>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-num">02</div>
+          <h3>Medi-scan-Image-analysis-for-Diabetic-Retinopathy</h3>
+          <p>This project focuses on developing a Python-based system for detecting Diabetic Retinopathy (DR) using deep
+            learning. DR is a diabetes-related eye disease that can lead to blindness if not diagnosed early. The
+            proposed model uses Convolutional Neural Networks (CNNs) trained on retinal fundus images to classify the
+            severity of DR into five stages.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">CNN</span>
+          </div>
+          <a href="https://github.com/Kushwanthbyragoni/Medi-scan-Image-analysis-for-Diabetic-Retinopathy" class="project-link" target="_blank">View Project →</a>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-num">03</div>
+          <h3>Gesture Glyph</h3>
+          <p>This project focuses on the development of an efficient Hand Sign Detection system capable of recognizing
+            A–Z alphabet gestures using deep learning techniques. Traditional image-processing approaches struggle with
+            variations in lighting, background noise, and hand orientation, making them unsuitable for robust gesture
+            classification.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Flask</span>
+            <span class="tech-tag">Keras</span>
+            <span class="tech-tag">TensorFlow</span>
+            <span class="tech-tag">CNN</span>
+            <span class="tech-tag">MobileNetV2</span>
+          </div>
+          <a href="https://github.com/Kushwanthbyragoni/Gesture-Glyph" class="project-link" target="_blank">View Project →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <div class="section-wrap">
+      <p class="section-label reveal">04 — My Journey</p>
+      <h2 class="section-title reveal">Experience &amp; <span class="hl">Clubs</span></h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <p class="timeline-date">JAN 2026 — JUN 2026</p>
+          <h3>UI / UX Designer Intern</h3>
+          <h4>PixeHub</h4>
+          <p>Designing user-centered interfaces, crafting brand identities, and producing high-quality visual assets.
+            Contributing to end-to-end product design from wireframes to polished production-ready screens.</p>
+        </div>
+        <div class="timeline-item reveal">
+          <p class="timeline-date">2024 — 2025</p>
+          <h3>Computer Society of India (CSI) Club Member</h3>
+          <h4>University Tech Clubs</h4>
+          <p>Active contributor in university technical clubs — organizing Industrial Visits, Managing club events and
+            Social-Media account, and collaborating with peers to explore cutting-edge technology domains.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ===== AUTOMOTIVE PASSION ===== -->
+  <section id="auto">
+    <div class="section-wrap">
+      <div class="auto-header reveal">
+        <p class="section-label" style="text-align:center;justify-content:center;display:flex">05 — Beyond The Screen
+        </p>
+        <h2 class="section-title" style="text-align:center;margin-bottom:30px">Automotive <span
+            class="hl">Passion</span></h2>
+        <div class="speedometer">
+          <div class="speedo-fill"></div>
+        </div>
+        <p
+          style="text-align:center;font-family:var(--font-light);font-size:0.88rem;color:rgba(234,240,255,0.4);font-weight:300;max-width:500px;margin:0 auto 60px">
+          Speed, engineering, and design — the same principles I apply to my code.
+        </p>
+      </div>
+      <div class="auto-cards">
+        <div class="auto-card reveal">
+          <span class="emoji">🏍️</span>
+          <h4>Two Wheels</h4>
+          <p>The freedom of a motorcycle, the precision of a racer — bikes are pure mechanical poetry</p>
+        </div>
+        <div class="auto-card reveal">
+          <span class="emoji">🏎️</span>
+          <h4>Four Wheels</h4>
+          <p>From street machines to supercars — the engineering behind performance vehicles is art</p>
+        </div>
+        <div class="auto-card reveal">
+          <span class="emoji">⚙️</span>
+          <h4>The Engineering</h4>
+          <p>Understanding how things work at a deep level — machines and code both demand precision</p>
+        </div>
+        <div class="auto-card reveal">
+          <span class="emoji">🏁</span>
+          <h4>The Speed</h4>
+          <p>Deadlines, performance, optimization — I bring that racing mindset to everything I build</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ===== ANIME INSPIRATION ===== -->
+  <section id="anime-sec">
+    <div class="section-wrap">
+      <p class="section-label reveal">06 — Creative Fuel</p>
+      <h2 class="section-title reveal">Anime <span class="hl">Inspiration</span></h2>
+      <div class="anime-content">
+        <div class="anime-aura reveal">
+          <div class="aura-ring ar1"></div>
+          <div class="aura-ring ar2"></div>
+          <div class="aura-ring ar3"></div>
+          <div class="aura-center">⛩️</div>
+        </div>
+        <div class="anime-text reveal">
+          <h3>Beyond Limits</h3>
+          <p>Anime taught me that the best creators don't just follow rules — they rewrite them. The obsessive
+            craftsmanship of anime storytelling mirrors how I approach design and development.</p>
+          <p>The energy, the ambition, the refusal to be ordinary — these aren't just fictional ideals. They're the
+            creative fuel that drives how I build, design, and solve problems.</p>
+          <div class="anime-traits">
+            <span class="trait">Persistence</span>
+            <span class="trait">Detail Obsession</span>
+            <span class="trait">Creative Vision</span>
+            <span class="trait">Push Beyond Limits</span>
+            <span class="trait">Storytelling</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="section-wrap">
+      <p class="section-label reveal">07 — Let's Connect</p>
+      <h2 class="section-title reveal">Get In <span class="hl">Touch</span></h2>
+      <div class="contact-grid">
+        <div class="reveal">
+          <h3>Say Hello</h3>
+          <div class="contact-item" btn id="email">
+            <span class="ci-icon">✉️</span>
+            <div class="ci-text"><span class="ci-label">Email</span>kushwanthbyragoni@gmail.com</div>
+          </div>
+          <div class="contact-item" btn id="linkedin">
+            <span class="ci-icon">💼</span>
+            <div class="ci-text"><span class="ci-label">LinkedIn</span>www.linkedin.com/in/kushwanth-byragoni</div>
+          </div>
+          <div class="contact-item" btn id="github">
+            <span class="ci-icon">🐙</span>
+            <div class="ci-text"><span class="ci-label">GitHub</span>github.com/kushwanth</div>
+          </div>
+        </div>
+        <div class="contact-form reveal">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="Your name here" />
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="hello@example.com" />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Let's build something incredible..."></textarea>
+          </div>
+          <button class="btn-submit" id="send-message">✦ Send Message ✦</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>Designed &amp; Built by <span>Kushwanth Byragoni</span> &nbsp;✦&nbsp; 2026</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
