@@ -115,8 +115,8 @@ In `style.css`, edit the `:root` variables:
 
 ---
 ### Custom Mouse
-1.Use the game-animator-vs-animation-blue.png
-
+Use the game-animator-vs-animation-blue.png
+---
 
 
 
@@ -129,7 +129,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 **Kushwanth Byragoni**
-- 🌐 Portfolio: [your-portfolio-link.com](https://your-portfolio-link.com)
+- 🌐 Portfolio: [My-portfolio-link.com](https://kushwanthbyragoni.github.io/My-Portfolio/)
 - 💼 LinkedIn: [linkedin.com/in/kushwanth](https://www.linkedin.com/in/kushwanth-byragoni-a605a427b/)
 - 🐙 GitHub: [github.com/kushwanth](https://github.com/Kushwanthbyragoni)
 - ✉️ Email: kushwanthbyragoni@gmail.com
